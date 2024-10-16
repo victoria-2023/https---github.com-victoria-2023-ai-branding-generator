@@ -21,3 +21,23 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+
+# AWS
+.aws/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
